@@ -30,14 +30,6 @@
 - Scan history tracking with detailed vulnerability reports per endpoint
 - Full React dashboard for configuring scans and reviewing results
 
-## Screenshots
-
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Scan Results
-![Scan Results](docs/screenshots/scan-results.png)
-
 ## System Architecture
 
 ```mermaid
