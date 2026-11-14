@@ -30,6 +30,14 @@
 - Scan history tracking with detailed vulnerability reports per endpoint
 - Full React dashboard for configuring scans and reviewing results
 
+## Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Scan Results
+![Scan Results](docs/screenshots/scan-results.png)
+
 ## System Architecture
 
 ```mermaid
@@ -52,7 +60,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Visit `http://localhost:8080` to open the dashboard.
+Visit `http://localhost:44380` to open the dashboard.
 
 > [!TIP]
 > This project uses [`just`](https://github.com/casey/just) as a command runner. Type `just` to see all available commands.
@@ -77,6 +85,3 @@ This project includes step-by-step learning materials covering security theory, 
 | [03 - Implementation](learn/03-IMPLEMENTATION.md) | Code walkthrough |
 | [04 - Challenges](learn/04-CHALLENGES.md) | Extension ideas and exercises |
 
-## License
-
-AGPL 3.0
